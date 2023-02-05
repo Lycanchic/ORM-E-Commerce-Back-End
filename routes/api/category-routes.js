@@ -48,4 +48,11 @@ router.put('/:id', async (req, res) => {
  }
 });
 
+router .delete('/:id', async (req, res) => {
+  await Category.destroy({
+    where: { id: req.params.id }
+  });
+  res.sendStatus(204);
+});
+
 module.exports = router;
