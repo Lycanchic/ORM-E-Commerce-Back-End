@@ -2,6 +2,9 @@ const { Tag } = require('../models');
 
 const tagData = [
   {
+    tag_name: 'claasical music',
+  },
+  {
     tag_name: 'rock music',
   },
   {

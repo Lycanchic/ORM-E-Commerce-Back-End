@@ -15,21 +15,29 @@ ProductTag.init(
       primaryKey: true,
     },
     product_id: {
+      type: DataTypes.INTEGER, 
      key: "id",
-     references: Product,
-    },
+     references: {
+      key: "id",
+      model: Product,
+  },
+},
     tag_id: {
       key: "id",
-      references: Tag,
-    }
+      type: DataTypes.INTEGER,
+      references: {
+        key: "id",
+        model: Tag,
+    },
   },
+},
   {
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
     modelName: 'product_tag',
-  }
+  },
 );
 
 module.exports = ProductTag;
