@@ -16,6 +16,7 @@ Product.init(
       type: DataTypes.INTEGER,
       autoIncrement: true,
       primaryKey: true,
+      allowNull: false,
     },
     product_name: {
       type: DataTypes.STRING,
