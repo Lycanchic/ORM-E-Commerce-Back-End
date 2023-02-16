@@ -7,13 +7,13 @@
 ***
 
 ## Home Page
-[home page image]
+![Create A Category](media/CreateCategory.png)
 
 ## Page 2
-[ page 2 image]
+![Create A Tag](media/CreateTag.png)
 
 ## Page 3
-[ page 3 image]
+![Update Products](media/UpdateProducts.png)
 
 
 
