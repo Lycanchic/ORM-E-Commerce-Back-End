@@ -6,13 +6,13 @@
 ## Images of the deployed website:
 ***
 
-## Home Page
+## Create a Category
 ![Create A Category](media/CreateCategory.png)
 
-## Page 2
+## Create a Tag
 ![Create A Tag](media/CreateTag.png)
 
-## Page 3
+## Delete a Tag
 ![Update Products](media/UpdateProducts.png)
 
 
