@@ -19,20 +19,11 @@ Category.hasMany(Product, {
 });
 
 // Products belongToMany Tags (through ProductTag)
-/*const ProductTag = sequelize.define('ProductTag', {});*/
 
 Product.belongsToMany(Tag, {
   foreignKey: "product_id",
   through: ProductTag,
 });
-Tag.belongsToMany(Product, {
-  through: ProductTag,
-  foreignKey: "tag_id",
-});
-
-// Tags belongToMany Products (through ProductTag)
-/*const Tag = sequelize.define('Tag', {});*/
-
 Tag.belongsToMany(Product, {
   through: ProductTag,
   foreignKey: "tag_id",

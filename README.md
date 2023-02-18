@@ -62,6 +62,10 @@ THEN I am able to successfully create, update, and delete data in my database
 ***
 [Click here to view the deployed repo](https://github.com/Lycanchic/ORM-E-Commerce-Back-End)
 
+## Video Walkthrough:
+
+
+[Click here to view the walkthrough video!](https://drive.google.com/file/d/1UHMoHGne4J5fXmUnzjxKFYSf0hNSc9Hm/view)
 
   ## INSTALLATION OF THE REPO FROM GITHUB
   ***
